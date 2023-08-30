@@ -125,17 +125,40 @@
           <h2 class="titel-three">What are we doing</h2>
           <ul class="list img-container">
             <li class="img-container-flex">
-              <img src="./images/Rectangle71.jpg" alt="IMac" width="360" />
-            </li>
-            <li class="img-container-flex">
               <img
-                src="./images/Rectangle72.jpg"
-                alt="Technologies"
+                srcset="
+                  ./images/Rectangle71.jpg    1x,
+                  ./images/Rectangle71@2x.jpg 2x
+                "
+                src="./images/Rectangle71.jpg"
+                alt="IMac"
                 width="360"
+                loading="lazy"
               />
             </li>
             <li class="img-container-flex">
-              <img src="./images/Rectangle73.jpg" alt="IPhone" width="360" />
+              <img
+                srcset="
+                  ./images/Rectangle72.jpg    1x,
+                  ./images/Rectangle72@2x.jpg 2x
+                "
+                src="./images/Rectangle72.jpg"
+                alt="Technologies"
+                width="360"
+                loading="lazy"
+              />
+            </li>
+            <li class="img-container-flex">
+              <img
+                srcset="
+                  ./images/Rectangle73.jpg    1x,
+                  ./images/Rectangle73@2x.jpg 2x
+                "
+                src="./images/Rectangle73.jpg"
+                alt="IPhone"
+                width="360"
+                loading="lazy"
+              />
             </li>
           </ul>
         </div>
@@ -147,9 +170,11 @@
           <ul class="list flex-img">
             <li class="list-item team">
               <img
-                src="./images/img.jpg"
+                srcset="./images/img-3.jpg 1x, ./images/img@2x-3.jpg 2x"
+                src="./images/img-3.jpg"
                 alt="Mark Guerrero Product Designer"
                 width="264"
+                loading="lazy"
               />
 
               <div class="div-team">
@@ -205,9 +230,11 @@
             </li>
             <li class="list-item team">
               <img
+                srcset="./images/img1.jpg 1x, ./images/img@2x-1.jpg 2x"
                 src="./images/img1.jpg"
                 alt="Tom Ford Frontend Developer"
                 width="264"
+                loading="lazy"
               />
               <div class="div-team">
                 <h3 class="text-four">Tom Ford</h3>
@@ -263,9 +290,11 @@
             </li>
             <li class="list-item team">
               <img
+                srcset="./images/img2.jpg 1x, ./images/img@2x-2.jpg 2x"
                 src="./images/img2.jpg"
                 alt="Camila Garcia Marketing"
                 width="264"
+                loading="lazy"
               />
               <div class="div-team">
                 <h3 class="text-four">Camila Garcia</h3>
@@ -320,9 +349,11 @@
             </li>
             <li class="list-item team">
               <img
+                srcset="./images/img3.jpg 1x, ./images/img@2x-3.jpg 2x"
                 src="./images/img3.jpg"
                 alt="Daniel Wilson UI Designer"
                 width="264"
+                loading="lazy"
               />
               <div class="div-team">
                 <h3 class="text-four">Daniel Wilson</h3>
