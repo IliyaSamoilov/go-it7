@@ -127,16 +127,17 @@ img {
   /* object-fit: cover; */
 }
 .logo {
-  margin-right: 76px;
+  /* margin-right: 76px; */
   display: flex;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.54px;
   text-transform: uppercase;
   color: var(--blue);
   text-decoration: none;
+  align-items: center;
 }
 .logo-foot {
   display: inline-block;
@@ -230,7 +231,7 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-mobile-one.jpg);
+    url(../images/Dark-bgmobile@1x.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -243,7 +244,7 @@ img {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/Dark-bg.mob@2x.jpg);
+      url(../images/Dark-bgmobile@2x.jpg);
   }
 }
 @media only screen and (min-width: 768px) {
@@ -345,8 +346,8 @@ img {
 }
 .section-twoe {
   list-style: none;
-  padding: 120px 0;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding: 96px 0;
+  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
 }
 .titel-twoe {
   text-align: center;
@@ -472,6 +473,7 @@ img {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  margin-bottom: 72px;
 }
 .button-flex {
   padding: 12px 24px;
@@ -944,14 +946,14 @@ section {
 }
 .footer-info {
   display: block;
-  margin-right: 120px;
+  /* margin-right: 120px; */
 }
 .footer-container {
   display: flex;
   align-items: baseline;
 }
 .six-div {
-  margin-left: 120px;
+  /* margin-left: 120px; */
 }
 .footer-subscribe {
   display: flex;
@@ -1021,7 +1023,7 @@ section {
   line-height: 1.5;
   letter-spacing: 0.02em;
 
-  width: 360px;
+  /* width: 360px; */
   margin-bottom: 16px;
 }
 .modal-form-label {
@@ -1314,7 +1316,7 @@ section {
     gap: 24px;
   }
   .footer-form-input {
-    width: 398px;
+    max-width: 398px;
   }
 }
 @media screen and (max-width: 1157px) {
