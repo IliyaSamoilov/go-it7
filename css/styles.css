@@ -865,7 +865,7 @@ section {
   opacity: 0;
 }
 .text-six {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -1512,7 +1512,7 @@ section {
   stroke: var(--titel-color);
 }
 .mobile-menu-icon-exit {
-  position: absolute;
+  /* position: absolute; */
   top: 24px;
   right: 24px;
   width: 24px;
@@ -1589,6 +1589,23 @@ section {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    /* padding: 24px 0; */
+  }
+  .studio {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+  }
+  .container {
+    width: 1440px;
+  }
+  /* .last-number {
+    padding-right: 156px;
+  } */
+  .header-container {
+    width: 1440px;
+    max-height: 72px;
   }
 }
 @media screen and (max-width: 767px) {
