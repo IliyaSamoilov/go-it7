@@ -1596,7 +1596,7 @@ section {
     justify-content: center;
     align-items: center;
     padding: 24px 0;
-    display: block;
+    /* display: block; */
   }
   .container {
     width: 1440px;
