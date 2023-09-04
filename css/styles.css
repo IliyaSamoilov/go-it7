@@ -437,13 +437,16 @@ img {
 .text-center {
   text-align: center;
 }
+.text-center {
+  margin-bottom: 8px;
+}
 .text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--gray);
-  margin-bottom: 8px;
+  /* margin-bottom: 8px; */
 }
 @media only screen and (min-width: 1158px) {
   .text {
