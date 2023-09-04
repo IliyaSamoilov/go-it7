@@ -660,12 +660,18 @@ section {
   .container {
     max-width: 768px;
   }
+  .container-customers {
+    max-width: 584px;
+  }
 }
 @media only screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .container-customers {
+    max-width: 1158px;
   }
 }
 .container-footer-div {
